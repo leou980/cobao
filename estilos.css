@@ -1,0 +1,148 @@
+a{
+    text-decoration: none;
+    color: rgb(185, 27, 27);
+    text-transform: none;
+    transition: 0.25s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    
+}
+ul li{
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+    
+
+}
+ul:hover a{
+    color: #000;
+    
+}
+ul:hover a:hover{
+    color: #cc1d1d;
+    box-shadow: 0 2px 0 0 currentColor;
+    
+}
+
+section{
+    display: flex;
+    width: 1070px;
+    height: 430px;
+    
+    
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+    border-radius: 20px;
+    margin: 1%;
+    
+}
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
+/* From Uiverse.io by gauravsharmadriveit */ 
+.button {
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    border: 3px solid #ffffff;
+    padding: 15px 60px;
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+  
+  .button::after, .button::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+  }
+  
+  button::after {
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+  }
+  
+  button::before {
+    bottom: -3px;
+    right: -3px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+  
+  button:hover {
+    color: #ce280a;
+    cursor: pointer;
+  }
+  
+  button:hover::after,
+  button:hover::before {
+    width: calc(50% + 3px);
+    height: calc(50% + 3px);
+    border-color: #7c1515;
+  }
+  img{
+    margin: 20px;
+  }
+  .large-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.normal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin: 20px;
+}
+.grande {
+    color: #cc1d1d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    
+    
+}
+.pequeño {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+.h{
+  font-size: 20px;
+  width: 600px;
+  word-wrap: break-word;
+}
+.he{
+  font-size: 20px;
+  width: 1000px;
+  word-wrap: break-word;
+}
+.si {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.no {
+  float: left;
+  margin-left: 10px;
+  margin: 20px;
+}
+.caca{
+  margin-top: 20px;
+}
