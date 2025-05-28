@@ -146,3 +146,10 @@ section img:hover{
 .caca{
   margin-top: 20px;
 }
+video {
+    width: 300px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
